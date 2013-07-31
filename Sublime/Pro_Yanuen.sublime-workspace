@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"b",
+				"br	Tag"
+			],
+			[
 				"html",
 				"html5gallery"
 			],
@@ -22,10 +26,6 @@
 			[
 				"padding",
 				"padding-left"
-			],
-			[
-				"b",
-				"button	Tag"
 			],
 			[
 				"in",
@@ -47,35 +47,24 @@
 			"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/index.html",
 			"settings":
 			{
-				"buffer_size": 27169,
+				"buffer_size": 32966,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/images/slider/Descr.WD3",
+			"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/layout-white.css",
 			"settings":
 			{
-				"buffer_size": 1225,
+				"buffer_size": 35174,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/Notes.txt",
+			"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/skeleton.css",
 			"settings":
 			{
-				"buffer_size": 124,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "PRO_HTML5\n=========\n\n************************************************\n***PROYECTO FINAL PARA CURSO HTML5 @ LA SALLE***\n************************************************\n\n-----------\n---THEME---\n-----------\n\n>DANZA ARABE\n\n-----------------\n---DESCRIPTION---\n-----------------\n\n>SITIO QUE MUESTRA LAS DISTINTAS ACTIVIDADES, QUE LLEVAN A CABO, LOS GRUPOS DE DANZA ARABE, DE LA MAESTRA IMALU YANUEN, PRINCIPALMENTE EL GRUPO DE DANZA ARABE DE LA CASA DE LA CULTURA DE LEON.\n\n----------------\n---REPOSITORY---\n----------------\n	\n>https://github.com/SASELO/PRO_HTML5/\n\n------------\n---LAYOUT---\n------------\n\n>GUIDE\n	http://themeforest.net/item/surreal-responsive-parallax-one-page-html5/4252333\n	http://html5css3templates.com/themes/surrealstudio/templates/index-white.html	\n\n>MOCKUP	\n	https://gomockingbird.com/mockingbird/#h82f0ud (for View)\n	ó\n	Seguir pasos en invitacion por correo de MockingBird (for Edit)\n\n	y\n	Abrir Proyecto HTML5_YANUEN\n\n---------------\n---STRUCTURE---\n---------------\n	\n>CATEGORIES\n	-INICIO\n		FOTO\n	\n	-CLASES\n		FOTOS\n		VIDEOS\n		TE PLATICO\n	\n	-PRESENTACIONES\n		PRESENTACION 01\n			FOTOS\n			VIDEOS\n			TE PLATICO\n		PRESENTACION 02\n			FOTOS\n			VIDEOS\n			TE PLATICO\n		PRESENTACION 03\n			FOTOS\n			VIDEOS\n			TE PLATICO\n		...\n		PROXIMAS PRESENTACIONES\n		\n	-BELLYDANCE\n		ORIGENES\n		FIGURAS BASICAS\n		ASOCIACIONES\n		CONGRESOS\n		COMPETENCIAS\n		\n	-ACERCA DE\n		STAFF\n			FOTO - NOMBRE\n		CONTACTO\n			MENSAJE	(FORMULARIO)\n			CORREO\n			TELEFONO FIJO\n			TELEFONO CELULAR\n			DIRECCION\n			SOCIAL FOLLOW (FB, G+, TW, YT, ...)	\n		TE PLATICO\n		\n	-BLOG\n		MENSUAL\n		\n>MODULES\n	-SOCIAL FOLLOW (ADD THIS)\n\n	-SOCIAL SHARE (ADD THIS)\n\n	-ADDS\n		PROXIMOS EVENTOS\n		INVITACION A PARTICIPAR\n		ANUNCIANTES\n\n	-COMMENTS (DISQUS)\n	\n>TECH\n	-HTML5\n\n	-ADDTHIS\n\n	-DISQUS\n\n	-GALLERY ()\n\n	-POP UP ()\n\n	-YOUTUBE\n\n---------------\n---SITE NAME---\n---------------\n\n>POSIBLES\n	.YANUEN.\n	.BD_YANUEN.\n	YANUEN_BD.\n	.BELLY_YANUEN.\n	.YANUEN_BELLY.\n	.BELLYDANCER_YANUEN.\n	.YANUEN_BELLYDANCER.\n	.BELLY_DANCER_YANUEN.\n	.YANUEN_BELLY_DANCER.\n	DANZA_ARABE_YANUEN.\n	\n>DETALLES\n	DANCER PUEDE SER CON 'S\n	TODOS CON WWW\n	DOMINIOS POSIBLES .COM .COM.MX\n	EN VEZ DE _ PUEDE SER -\n\n------------\n---REVIEW---\n------------\n\n>ISTOCKPHOTO\n	BELLYDANCER\n	ARABIAN\n	ARABIAN DANCER\n	7 VELOS\n	DANZA DEL VIENTRE\n	PRINCESA ALADIN\n\n>VIDEOS\n	VIDEO DE TIENDA DE ARABE DE SORIANA\n	CONCEPTOS EN YOU TUBE\n\n>PAGINAS",
-			"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/README.md",
-			"file_size": 2504,
-			"file_write_time": 130188128789007454,
-			"settings":
-			{
-				"buffer_size": 2348,
-				"line_ending": "Windows"
+				"buffer_size": 12657,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -107,6 +96,12 @@
 	},
 	"file_history":
 	[
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_HTML5/README.md",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/skeleton.css",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/README.md",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/Notes.txt",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/js/custom.js",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/images/slider/Descr.WD3",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_SUREAL/templates/index-white.html",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_SUREAL/templates/css/layout-white.css",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_SUREAL/templates/js/jquery.parallax-1.1.3.js",
@@ -124,7 +119,6 @@
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_HTML5/css/style.css",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_HTML5/js/script.js",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_CHAT/index.html",
-		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_HTML5/README.md",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_HTML5/LEEME @ 04JUL13.txt",
 		"/C/Documents and Settings/SASELO/Mis documentos/Pro/PRO_HTML5/PRO_HTML5.sublime-project",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_CHAT/css/chat.styl",
@@ -164,6 +158,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"one-third column",
+			"teamImage",
+			"scale-with-grid",
+			"teamName",
 			"parallax-4",
 			"parallax-3",
 			"parallax-2",
@@ -222,7 +220,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -230,15 +228,15 @@
 					"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/index.html",
 					"settings":
 					{
-						"buffer_size": 27169,
+						"buffer_size": 32966,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10323,
-								10323
+								1155,
+								1155
 							]
 						],
 						"settings":
@@ -248,87 +246,62 @@
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 3700.0,
+						"translation.x": 123.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/images/slider/Descr.WD3",
+					"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/layout-white.css",
 					"settings":
 					{
-						"buffer_size": 1225,
+						"buffer_size": 35174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								14824,
+								14824
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 12901.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/Notes.txt",
+					"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/skeleton.css",
 					"settings":
 					{
-						"buffer_size": 124,
+						"buffer_size": 12657,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								12655,
+								12655
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/README.md",
-					"settings":
-					{
-						"buffer_size": 2348,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1677,
-								1677
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 989.0,
+						"translation.y": 3837.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -396,6 +369,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 130.0,
+	"side_bar_width": 251.0,
 	"status_bar_visible": true
 }

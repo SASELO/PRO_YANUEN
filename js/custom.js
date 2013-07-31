@@ -65,7 +65,7 @@ $(document).ready(function () {
 //HOMEPAGE SPECIFIC -----------------------------------------------------------------/
 	function sliderHeight() {
 		wh = $(window).height();
-		$('#homepage').css({height: wh});
+		$('#inicio').css({height: wh});
 	}
 	sliderHeight();
 
@@ -134,31 +134,43 @@ $(document).ready(function () {
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:	[			// Slideshow Images
 			{image : './images/slider/image1.jpg',
-				title : '<h2><span>Responsive</span> Design</h2>',
-				thumb : '',
-				url : ''
-				},
-
-			{image : './images/slider/image3.jpg',
-				title : '<h2><span>Fullscreen</span> Slideshow</h2>',
+				title : '<h2><span>Yanuen BellyDance</span></h2>',
 				thumb : '',
 				url : ''
 				},
 
 			{image : './images/slider/image2.jpg',
-				title : '<h2><span>Parallax</span> Background</h2>',
+				title : '<h2><span>Yanuen BellyDance</span></h2>',
+				thumb : '',
+				url : ''
+				},
+
+			{image : './images/slider/image3.jpg',
+				title : '<h2><span>Yanuen BellyDance</span></h2>',
 				thumb : '',
 				url : ''
 				},
 
 			{image : './images/slider/image4.jpg',
-				title : '<h2><span>Masonry</span> Portfolio</h2>',
+				title : '<h2><span>Yanuen BellyDance</span></h2>',
 				thumb : '',
 				url : ''
 				},
 
 			{image : './images/slider/image5.jpg',
-				title : '<h2><span>Showcase</span> your work</h2>',
+				title : '<h2><span>Yanuen BellyDance</span></h2>',
+				thumb : '',
+				url : ''
+				},
+
+			{image : './images/slider/image6.jpg',
+				title : '<h2><span>Yanuen BellyDance</span></h2>',
+				thumb : '',
+				url : ''
+				},
+
+			{image : './images/slider/image7.jpg',
+				title : '<h2><span>Yanuen BellyDance</span></h2>',
 				thumb : '',
 				url : ''
 				}
