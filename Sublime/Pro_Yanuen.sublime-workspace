@@ -43,30 +43,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/index.html",
-			"settings":
-			{
-				"buffer_size": 32966,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/layout-white.css",
-			"settings":
-			{
-				"buffer_size": 35174,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/skeleton.css",
-			"settings":
-			{
-				"buffer_size": 12657,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -96,8 +72,14 @@
 	},
 	"file_history":
 	[
-		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_HTML5/README.md",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/index.html",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/js/modernizr-2.6.2.js",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/layout-white.css",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/skeleton.css",
+		"/C/Documents and Settings/SASELO/Mis documentos/Downloads/Readme.txt",
+		"/C/Documents and Settings/SASELO/Mis documentos/Downloads/bootstrap (1)/css/bootstrap.css",
+		"/C/Documents and Settings/SASELO/Mis documentos/Downloads/twbs-bootstrap-v2.3.2-2-g7f0b487/twbs-bootstrap-7f0b487/README.md",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_HTML5/README.md",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/README.md",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/Notes.txt",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/js/custom.js",
@@ -158,6 +140,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"accor",
+			"acco",
+			"accordion",
 			"one-third column",
 			"teamImage",
 			"scale-with-grid",
@@ -220,92 +205,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/index.html",
-					"settings":
-					{
-						"buffer_size": 32966,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1155,
-								1155
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 123.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/layout-white.css",
-					"settings":
-					{
-						"buffer_size": 35174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14824,
-								14824
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 12901.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/skeleton.css",
-					"settings":
-					{
-						"buffer_size": 12657,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12655,
-								12655
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3837.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -369,6 +270,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 251.0,
+	"side_bar_width": 232.0,
 	"status_bar_visible": true
 }
