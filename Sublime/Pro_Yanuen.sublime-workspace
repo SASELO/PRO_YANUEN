@@ -73,6 +73,12 @@
 	"file_history":
 	[
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/index.html",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/Templates.html",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/README.md",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/TemSlider.html",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_TEST/index.html",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_TEST/bootstrap/css/bootstrap.css",
+		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_TEST/bootstrap (1)/js/bootstrap.js",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/js/modernizr-2.6.2.js",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/layout-white.css",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/css/skeleton.css",
@@ -80,7 +86,6 @@
 		"/C/Documents and Settings/SASELO/Mis documentos/Downloads/bootstrap (1)/css/bootstrap.css",
 		"/C/Documents and Settings/SASELO/Mis documentos/Downloads/twbs-bootstrap-v2.3.2-2-g7f0b487/twbs-bootstrap-7f0b487/README.md",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_HTML5/README.md",
-		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/README.md",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/Notes.txt",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/js/custom.js",
 		"/C/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/PRO_YANUEN/images/slider/Descr.WD3",
@@ -270,6 +275,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 232.0,
+	"side_bar_width": 106.0,
 	"status_bar_visible": true
 }

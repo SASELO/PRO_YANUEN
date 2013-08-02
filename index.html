@@ -44,7 +44,12 @@
     <script type="text/javascript" src="js/contact_form.js"></script>
     <script type="text/javascript" src="js/tooltip.js"></script>
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    
+    <script type="text/javascript" src="js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tab.js"></script>
+    
 
 
 	<script type="text/javascript">
@@ -172,7 +177,7 @@
      
      
 <!-- Beg Clases -->
-     <div id="clases" class="page section">
+    <div id="clases" class="page section">
         
     	
         	<div class="container">
@@ -184,84 +189,50 @@
                         <span class="smallBold">BELLY DANCER</span>
                         <span class="small"> integrate con nosotras</span> 
                     </h3>
-                   
                 </div>
-            </div>
-        <div class="gallerySelector">
-            <ul class="gallerySelectorList">
-                <li class="current"><a data-filter="article.portfolio" href="#">All</a></li>
-                <li><a data-filter="article.portfolio[data-category~='illustration']" href="#">Illustration</a></li>
-                <li><a data-filter="article.portfolio[data-category~='photography']" href="#">Photography</a></li>
-                <li><a data-filter="article.portfolio[data-category~='branding']" href="#">Branding</a></li>
-                <li><a data-filter="article.portfolio[data-category~='video']" href="#">Video</a></li>
-            </ul>
-        </div>
-            
-        <section class="portfolio_container">
-            
-			<article class="portfolio" data-category="branding">
-                <section class="thumbImage">
-                    <img src="images/gallery/gallery-01-thumb.jpg" alt="" class="fullwidth">
-                    <div class="thumbTextWrap">
-                        <div class="thumbText">
-                            <h3 class="sectionTitle">Gallery Item</h3>
-                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
-                            <a class="thumbLink" href="images/gallery/gallery-01.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
-                        </div>
-                    </div>
-                </section>
-            </article>
 
-            <article class="portfolio" data-category="photography">
-                <section class="thumbImage">
-                	<img src="images/gallery/gallery-02-thumb.jpg" alt="" class="fullwidth">
-                    <div class="thumbTextWrap">
-                        <div class="thumbText">
-                            <h3 class="sectionTitle">Gallery Item</h3>
-                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
-                            <a class="thumbLink" href="images/gallery/gallery-02.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                <div class="sixteen columns marginTop">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#cla_tab01" data-toggle="tab">Horarios</a></li>
+                        <li><a href="#cla_tab02" data-toggle="tab">Fotos</a></li>
+                        <li><a href="#cla_tab03" data-toggle="tab">Videos</a></li>
+                        <li><a href="#cla_tab04" data-toggle="tab">Te Platico</a></li>
+                    </ul>
+                    <div class="tab-content">
+
+                        <div class="tab-pane active" id="cla_tab01">
+                            a
                         </div>
-                    </div>
-                </section>
-            </article>
-            <article class="portfolio" data-category="video">
-                <section class="thumbImage"><figure>
-                    <img src="images/gallery/gallery-03-thumb.jpg" alt="" class="fullwidth">
-                    <div class="thumbTextWrap">
-                        <div class="thumbText">
-                            <h3 class="sectionTitle">Gallery Item</h3>
-                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
-                            <a class="thumbLink" href="http://vimeo.com/24169968" rel="prettyPhoto" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+
+                        <div class="tab-pane" id="cla_tab02">
+                            b
                         </div>
-                    </div>
-                </section>
-            </article>
-            <article class="portfolio" data-category="illustration">
-                <section class="thumbImage">
-                    <img src="images/gallery/gallery-04-thumb.jpg" alt="" class="fullwidth">
-                    <div class="thumbTextWrap">
-                        <div class="thumbText">
-                            <h3 class="sectionTitle">Gallery Item</h3>
-                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
-                            <a class="thumbLink" href="images/gallery/gallery-04.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+
+                        <div class="tab-pane" id="cla_tab03">
+                            c
                         </div>
+
+                        <div class="tab-pane" id="cla_tab04">
+                            d
+                        </div>
+
                     </div>
-                </section>
-            </article>
-            
-         </section>
-			<div class="portfolioBottom"></div>
+                </div>
+
+            </div>
+
+			<div class="portfolioBottom marginTop"></div>
             
          <!-- Beg parallax-1 -->
          <div id="parallax-1" class="parallax fixed" style="background-image: url(images/parallax-1.jpg);">
          </div>
          <!-- End parallax-1 -->
         
-     </div>
+    </div>
 <!-- End Clases -->       
      
 <!-- Beg Presentaciones -->
-     <div id="presentaciones" class="page section">
+    <div id="presentaciones" class="page section">
      
         <div class="container aboutContainer">
         
@@ -274,7 +245,174 @@
                 </h3>
             </div>
 
-            
+            <div class="sixteen columns marginTop">
+                <div class="accordion" id="pre_aco01">
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse01">
+                            Instituto Tepeyac
+                            </a>
+                        </div>
+                        <div id="collapse01" class="accordion-body collapse in">
+                            <div class="accordion-inner">
+                                <!-- Beg Tabs -->
+                                <div class="sixteen columns marginTop">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#pre_aco01_tab01" data-toggle="tab">Fotos</a></li>
+                                        <li><a href="#pre_aco01_tab02" data-toggle="tab">Videos</a></li>
+                                        <li><a href="#pre_aco01_tab03" data-toggle="tab">Te Platico</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+
+                                        <div class="tab-pane active" id="pre_aco01_tab01">
+                                            Fotos
+                                        </div>
+
+                                        <div class="tab-pane" id="pre_aco01_tab02">
+                                            Videos
+                                        </div>
+
+                                        <div class="tab-pane" id="pre_aco01_tab03">
+                                            Te Platico
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- End Tabs -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse02">
+                            Teatro Maria Greever
+                            </a>
+                        </div>
+                        <div id="collapse02" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <!-- Beg Tabs -->
+                                <div class="sixteen columns marginTop">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#pre_col02_tab01" data-toggle="tab">Fotos</a></li>
+                                        <li><a href="#pre_col02_tab02" data-toggle="tab">Videos</a></li>
+                                        <li><a href="#pre_col02_tab03" data-toggle="tab">Te Platico</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+
+                                        <div class="tab-pane active" id="pre_col02_tab01">
+                                            Fotos
+                                        </div>
+
+                                        <div class="tab-pane" id="pre_col02_tab02">
+                                            Videos
+                                        </div>
+
+                                        <div class="tab-pane" id="pre_col02_tab03">
+                                            Te Platico
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- End Tabs -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse03">
+                            Soriana Maravillas
+                            </a>
+                        </div>
+                        <div id="collapse03" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                Anim pariatur cliche...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse04">
+                            Teatro Principal en Gto
+                            </a>
+                        </div>
+                        <div id="collapse04" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                Anim pariatur cliche...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse05">
+                            Festival de Taco
+                            </a>
+                        </div>
+                        <div id="collapse05" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                Anim pariatur cliche...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse06">
+                            Feria del Libro
+                            </a>
+                        </div>
+                        <div id="collapse06" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                Anim pariatur cliche...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse07">
+                            InterSalecianos
+                            </a>
+                        </div>
+                        <div id="collapse07" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                Anim pariatur cliche...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse08">
+                            Plaza Principal
+                            </a>
+                        </div>
+                        <div id="collapse08" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                Anim pariatur cliche...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse09">
+                            Ibero
+                            </a>
+                        </div>
+                        <div id="collapse09" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                Anim pariatur cliche...
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>            
 
      	</div>
         
@@ -283,7 +421,7 @@
          </div>
        <!-- End parallax-2-->
         
-     </div>
+    </div>
  <!-- End Presentaciones --> 
     
     
@@ -675,7 +813,7 @@
 <!-- End Acerca de -->  
     
 <!-- Beg Blog -->
-     <div id="blog" class="page section">
+    <div id="blog" class="page section">
      
         <div class="container contactContainer">
         
@@ -689,46 +827,109 @@
             </div>
 
             <div class="sixteen columns marginTop">
-            <div class="accordion" id="accordion2">
+                <div class="accordion" id="blo_aco01">
 
-                <div class="accordion-group">
-                    <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                        Collapsible Group Item #1
-                        </a>
-                    </div>
-                    <div id="collapseOne" class="accordion-body collapse in">
-                        <div class="accordion-inner">
-                            Anim pariatur cliche...
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco01" href="#collapse01">
+                            Agosto
+                            </a>
+                        </div>
+                        <div id="collapse01" class="accordion-body collapse in">
+                            <div class="accordion-inner">
+
+                                <div class="ten columns marginTop">
+                                    <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                    <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="accordion-group">
-                    <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                            Collapsible Group Item #2
-                        </a>
-                    </div>
-                    <div id="collapseTwo" class="accordion-body collapse">
-                        <div class="accordion-inner">
-                            Anim pariatur cliche...
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco01" href="#collapse02">
+                            Septiembre
+                            </a>
+                        </div>
+                        <div id="collapse02" class="accordion-body collapse">
+                            <div class="accordion-inner">
+
+                                <div class="ten columns marginTop">
+                                    <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                    <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco01" href="#collapse03">
+                            Octubre
+                            </a>
+                        </div>
+                        <div id="collapse03" class="accordion-body collapse">
+                            <div class="accordion-inner">
+
+                                <div class="ten columns marginTop">
+                                    <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                    <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco01" href="#collapse04">
+                            Noviembre
+                            </a>
+                        </div>
+                        <div id="collapse04" class="accordion-body collapse">
+                            <div class="accordion-inner">
+
+                                <div class="ten columns marginTop">
+                                    <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                    <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco01" href="#collapse05">
+                            Diciembre
+                            </a>
+                        </div>
+                        <div id="collapse05" class="accordion-body collapse">
+                            <div class="accordion-inner">
+
+                                <div class="ten columns marginTop">
+                                    <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                    <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             
    	   </div>
-        
-        
+            
         <!-- Beg parallax-5 -->
          <div id="parallax-5" class="parallax fixed" style="background-image: url(images/parallax-5.jpg);">
          </div>
        <!-- End parallax-5 -->
         
-     </div>
+    </div>
 <!-- End Blog --> 
     
     
