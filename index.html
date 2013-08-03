@@ -44,7 +44,7 @@
     <script type="text/javascript" src="js/contact_form.js"></script>
     <script type="text/javascript" src="js/tooltip.js"></script>
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
-
+    <script type="text/javascript" src="js/html5gallery.js"></script>
     
     <script type="text/javascript" src="js/bootstrap-collapse.js"></script>
     <script type="text/javascript" src="js/bootstrap-transition.js"></script>
@@ -200,21 +200,63 @@
                     </ul>
                     <div class="tab-content">
 
+                        <!-- Beg Horarios -->
                         <div class="tab-pane active" id="cla_tab01">
                             a
                         </div>
+                        <!-- End Horarios -->
 
+                        <!-- Beg Fotos -->
                         <div class="tab-pane" id="cla_tab02">
-                            b
+                            <div class="ten columns marginTop">
+                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="270" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                  <a href="01.jpg"><img data-src="holder.js/48x48" alt="01"></a>
+                                  <a href="02.jpg"><img data-src="holder.js/48x48" alt="02"></a>
+                                  <a href="03.jpg"><img data-src="holder.js/48x48" alt="03"></a>
+                                  <a href="04.jpg"><img data-src="holder.js/48x48" alt="04"></a>
+                                  <a href="05.jpg"><img data-src="holder.js/48x48" alt="05"></a>
+                                  <a href="06.jpg"><img data-src="holder.js/48x48" alt="06"></a>
+                                  <a href="07.jpg"><img data-src="holder.js/48x48" alt="07"></a>
+                                  <a href="08.jpg"><img data-src="holder.js/48x48" alt="08"></a>
+                                  <a href="09.jpg"><img data-src="holder.js/48x48" alt="09"></a>
+                                  <a href="10.jpg"><img data-src="holder.js/48x48" alt="10"></a>
+                                </div>
+                            </div>
                         </div>
+                        <!-- End Fotos -->
 
+                        <!-- Beg Videos -->
                         <div class="tab-pane" id="cla_tab03">
-                            c
+                            <div class="ten columns marginTop">
+                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="272" data-autoplayvideo="false" data-thumbshowplayonvideo="false" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                  </a>
+                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                  </a>
+                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                  </a>
+                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                  </a>
+                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                  </a>
+                                </div>
+                            </div>
                         </div>
+                        <!-- End Videos -->
 
+                        <!-- Beg Te Platico -->
                         <div class="tab-pane" id="cla_tab04">
-                            d
+                            <div class="ten columns marginTop">
+                                <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                            </div>
                         </div>
+                        <!-- End Te Platico -->
 
                     </div>
                 </div>
@@ -246,36 +288,77 @@
             </div>
 
             <div class="sixteen columns marginTop">
-                <div class="accordion" id="pre_aco01">
+                <div class="accordion" id="pre_aco">
 
+                    <!-- Beg Instituto Tepeyac -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse01">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco" href="#pre_col01">
                             Instituto Tepeyac
                             </a>
                         </div>
-                        <div id="collapse01" class="accordion-body collapse in">
+                        <div id="pre_col01" class="accordion-body collapse in">
                             <div class="accordion-inner">
                                 <!-- Beg Tabs -->
                                 <div class="sixteen columns marginTop">
                                     <ul class="nav nav-tabs">
-                                        <li class="active"><a href="#pre_aco01_tab01" data-toggle="tab">Fotos</a></li>
-                                        <li><a href="#pre_aco01_tab02" data-toggle="tab">Videos</a></li>
-                                        <li><a href="#pre_aco01_tab03" data-toggle="tab">Te Platico</a></li>
+                                        <li class="active"><a href="#pre_col01_tab01" data-toggle="tab">Fotos</a></li>
+                                        <li><a href="#pre_col01_tab02" data-toggle="tab">Videos</a></li>
+                                        <li><a href="#pre_col01_tab03" data-toggle="tab">Te Platico</a></li>
                                     </ul>
                                     <div class="tab-content">
 
-                                        <div class="tab-pane active" id="pre_aco01_tab01">
-                                            Fotos
+                                        <!-- Beg Fotos -->
+                                        <div class="tab-pane active" id="pre_col01_tab01">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="270" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="images/normal/it/nit_01.jpg"><img src="images/small/it/sit_01.jpg" alt="01"></a>
+                                                  <a href="images/normal/it/nit_02.jpg"><img src="images/small/it/sit_02.jpg" alt="02"></a>
+                                                  <a href="images/normal/it/nit_03.jpg"><img src="images/small/it/sit_03.jpg" alt="03"></a>
+                                                  <a href="images/normal/it/nit_04.jpg"><img src="images/small/it/sit_04.jpg" alt="04"></a>
+                                                  <a href="images/normal/it/nit_05.jpg"><img src="images/small/it/sit_05.jpg" alt="05"></a>
+                                                  <a href="images/normal/it/nit_06.jpg"><img src="images/small/it/sit_06.jpg" alt="06"></a>
+                                                  <a href="images/normal/it/nit_07.jpg"><img src="images/small/it/sit_07.jpg" alt="07"></a>
+                                                  <a href="images/normal/it/nit_08.jpg"><img src="images/small/it/sit_08.jpg" alt="08"></a>
+                                                  <a href="images/normal/it/nit_09.jpg"><img src="images/small/it/sit_09.jpg" alt="09"></a>
+                                                  <a href="images/normal/it/nit_10.jpg"><img src="images/small/it/sit_10.jpg" alt="10"></a>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <!-- End Fotos -->
 
-                                        <div class="tab-pane" id="pre_aco01_tab02">
-                                            Videos
+                                        <!-- Beg Videos -->
+                                        <div class="tab-pane" id="pre_col01_tab02">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="272" data-autoplayvideo="false" data-thumbshowplayonvideo="false" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <!-- End Videos -->
 
-                                        <div class="tab-pane" id="pre_aco01_tab03">
-                                            Te Platico
+                                        <!-- Beg Te Platico -->
+                                        <div class="tab-pane" id="pre_col01_tab03">
+                                            <div class="ten columns marginTop">
+                                                <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                                <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                            </div>
                                         </div>
+                                        <!-- End Te Platico -->
 
                                     </div>
                                 </div>
@@ -283,14 +366,16 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Instituto Tepeyac -->
 
+                    <!-- Beg Teatro Maria Greever -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse02">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco" href="#pre_col02">
                             Teatro Maria Greever
                             </a>
                         </div>
-                        <div id="collapse02" class="accordion-body collapse">
+                        <div id="pre_col02" class="accordion-body collapse">
                             <div class="accordion-inner">
                                 <!-- Beg Tabs -->
                                 <div class="sixteen columns marginTop">
@@ -301,17 +386,57 @@
                                     </ul>
                                     <div class="tab-content">
 
+                                        <!-- Beg Fotos -->
                                         <div class="tab-pane active" id="pre_col02_tab01">
-                                            Fotos
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="270" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="images/normal/mg/nmg_01.jpg"><img src="images/small/mg/smg_01.jpg" alt="01"></a>
+                                                  <a href="images/normal/mg/nmg_02.jpg"><img src="images/small/mg/smg_02.jpg" alt="02"></a>
+                                                  <a href="images/normal/mg/nmg_03.jpg"><img src="images/small/mg/smg_03.jpg" alt="03"></a>
+                                                  <a href="images/normal/mg/nmg_04.jpg"><img src="images/small/mg/smg_04.jpg" alt="04"></a>
+                                                  <a href="images/normal/mg/nmg_05.jpg"><img src="images/small/mg/smg_05.jpg" alt="05"></a>
+                                                  <a href="images/normal/mg/nmg_06.jpg"><img src="images/small/mg/smg_06.jpg" alt="06"></a>
+                                                  <a href="images/normal/mg/nmg_07.jpg"><img src="images/small/mg/smg_07.jpg" alt="07"></a>
+                                                  <a href="images/normal/mg/nmg_08.jpg"><img src="images/small/mg/smg_08.jpg" alt="08"></a>
+                                                  <a href="images/normal/mg/nmg_09.jpg"><img src="images/small/mg/smg_09.jpg" alt="09"></a>
+                                                  <a href="images/normal/mg/nmg_10.jpg"><img src="images/small/mg/smg_10.jpg" alt="10"></a>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <!-- End Fotos -->
 
+                                        <!-- Beg Videos -->
                                         <div class="tab-pane" id="pre_col02_tab02">
-                                            Videos
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="272" data-autoplayvideo="false" data-thumbshowplayonvideo="false" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <!-- End Videos -->
 
+                                        <!-- Beg Te Platico -->
                                         <div class="tab-pane" id="pre_col02_tab03">
-                                            Te Platico
+                                            <div class="ten columns marginTop">
+                                                <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                                <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                            </div>
                                         </div>
+                                        <!-- End Te Platico -->
 
                                     </div>
                                 </div>
@@ -319,97 +444,553 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Teatro Maria Greever -->
 
+                    <!-- Beg Soriana Maravillas -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse03">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco" href="#pre_col03">
                             Soriana Maravillas
                             </a>
                         </div>
-                        <div id="collapse03" class="accordion-body collapse">
+                        <div id="pre_col03" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                Anim pariatur cliche...
+                                <!-- Beg Tabs -->
+                                <div class="sixteen columns marginTop">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#pre_col03_tab01" data-toggle="tab">Fotos</a></li>
+                                        <li><a href="#pre_col03_tab02" data-toggle="tab">Videos</a></li>
+                                        <li><a href="#pre_col03_tab03" data-toggle="tab">Te Platico</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+
+                                        <!-- Beg Fotos -->
+                                        <div class="tab-pane active" id="pre_col03_tab01">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="270" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="images/normal/sm/nsm_01.jpg"><img src="images/small/sm/ssm_01.jpg" alt="01"></a>
+                                                  <a href="images/normal/sm/nsm_02.jpg"><img src="images/small/sm/ssm_02.jpg" alt="02"></a>
+                                                  <a href="images/normal/sm/nsm_03.jpg"><img src="images/small/sm/ssm_03.jpg" alt="03"></a>
+                                                  <a href="images/normal/sm/nsm_04.jpg"><img src="images/small/sm/ssm_04.jpg" alt="04"></a>
+                                                  <a href="images/normal/sm/nsm_05.jpg"><img src="images/small/sm/ssm_05.jpg" alt="05"></a>
+                                                  <a href="images/normal/sm/nsm_06.jpg"><img src="images/small/sm/ssm_06.jpg" alt="06"></a>
+                                                  <a href="images/normal/sm/nsm_07.jpg"><img src="images/small/sm/ssm_07.jpg" alt="07"></a>
+                                                  <a href="images/normal/sm/nsm_08.jpg"><img src="images/small/sm/ssm_08.jpg" alt="08"></a>
+                                                  <a href="images/normal/sm/nsm_09.jpg"><img src="images/small/sm/ssm_09.jpg" alt="09"></a>
+                                                  <a href="images/normal/sm/nsm_10.jpg"><img src="images/small/sm/ssm_10.jpg" alt="10"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Videos -->
+
+                                        <!-- Beg Videos -->
+                                        <div class="tab-pane" id="pre_col03_tab02">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="272" data-autoplayvideo="false" data-thumbshowplayonvideo="false" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Videos -->
+
+                                        <!-- Beg Te Platico -->
+                                        <div class="tab-pane" id="pre_col03_tab03">
+                                            <div class="ten columns marginTop">
+                                                <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                                <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                            </div>
+                                        </div>
+                                        <!-- End Te Platico -->
+
+                                    </div>
+                                </div>
+                                <!-- End Tabs -->
                             </div>
                         </div>
                     </div>
+                    <!-- End Soriana Maravillas -->
 
+                    <!-- Beg Teatro Principal en Gto -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse04">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco" href="#pre_col04">
                             Teatro Principal en Gto
                             </a>
                         </div>
-                        <div id="collapse04" class="accordion-body collapse">
+                        <div id="pre_col04" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                Anim pariatur cliche...
+                                <!-- Beg Tabs -->
+                                <div class="sixteen columns marginTop">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#pre_col04_tab01" data-toggle="tab">Fotos</a></li>
+                                        <li><a href="#pre_col04_tab02" data-toggle="tab">Videos</a></li>
+                                        <li><a href="#pre_col04_tab03" data-toggle="tab">Te Platico</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+
+                                        <!-- Beg Fotos -->
+                                        <div class="tab-pane active" id="pre_col04_tab01">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="270" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="images/normal/tp/ntp_01.jpg"><img src="images/small/tp/stp_01.jpg" alt="01"></a>
+                                                  <a href="images/normal/tp/ntp_02.jpg"><img src="images/small/tp/stp_02.jpg" alt="02"></a>
+                                                  <a href="images/normal/tp/ntp_03.jpg"><img src="images/small/tp/stp_03.jpg" alt="03"></a>
+                                                  <a href="images/normal/tp/ntp_04.jpg"><img src="images/small/tp/stp_04.jpg" alt="04"></a>
+                                                  <a href="images/normal/tp/ntp_05.jpg"><img src="images/small/tp/stp_05.jpg" alt="05"></a>
+                                                  <a href="images/normal/tp/ntp_06.jpg"><img src="images/small/tp/stp_06.jpg" alt="06"></a>
+                                                  <a href="images/normal/tp/ntp_07.jpg"><img src="images/small/tp/stp_07.jpg" alt="07"></a>
+                                                  <a href="images/normal/tp/ntp_08.jpg"><img src="images/small/tp/stp_08.jpg" alt="08"></a>
+                                                  <a href="images/normal/tp/ntp_09.jpg"><img src="images/small/tp/stp_09.jpg" alt="09"></a>
+                                                  <a href="images/normal/tp/ntp_10.jpg"><img src="images/small/tp/stp_10.jpg" alt="10"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Fotos -->
+
+                                        <!-- Beg Videos -->
+                                        <div class="tab-pane" id="pre_col04_tab02">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="272" data-autoplayvideo="false" data-thumbshowplayonvideo="false" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Videos -->
+
+                                        <!-- Beg Te Platico -->
+                                        <div class="tab-pane" id="pre_col04_tab03">
+                                            <div class="ten columns marginTop">
+                                                <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                                <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                            </div>
+                                        </div>
+                                        <!-- End Te Platico -->
+
+                                    </div>
+                                </div>
+                                <!-- End Tabs -->
                             </div>
                         </div>
                     </div>
+                    <!-- End Teatro Principal en Gto -->
 
+                    <!-- Beg Festival del Taco -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse05">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco" href="#pre_col05">
                             Festival de Taco
                             </a>
                         </div>
-                        <div id="collapse05" class="accordion-body collapse">
+                        <div id="pre_col05" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                Anim pariatur cliche...
+                                <!-- Beg Tabs -->
+                                <div class="sixteen columns marginTop">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#pre_col05_tab01" data-toggle="tab">Fotos</a></li>
+                                        <li><a href="#pre_col05_tab02" data-toggle="tab">Videos</a></li>
+                                        <li><a href="#pre_col05_tab03" data-toggle="tab">Te Platico</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+
+                                        <!-- Beg Fotos -->
+                                        <div class="tab-pane active" id="pre_col05_tab01">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="270" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="images/normal/ft/nft_01.jpg"><img src="images/small/ft/sft_01.jpg" alt="01"></a>
+                                                  <a href="images/normal/ft/nft_02.jpg"><img src="images/small/ft/sft_02.jpg" alt="02"></a>
+                                                  <a href="images/normal/ft/nft_03.jpg"><img src="images/small/ft/sft_03.jpg" alt="03"></a>
+                                                  <a href="images/normal/ft/nft_04.jpg"><img src="images/small/ft/sft_04.jpg" alt="04"></a>
+                                                  <a href="images/normal/ft/nft_05.jpg"><img src="images/small/ft/sft_05.jpg" alt="05"></a>
+                                                  <a href="images/normal/ft/nft_06.jpg"><img src="images/small/ft/sft_06.jpg" alt="06"></a>
+                                                  <a href="images/normal/ft/nft_07.jpg"><img src="images/small/ft/sft_07.jpg" alt="07"></a>
+                                                  <a href="images/normal/ft/nft_08.jpg"><img src="images/small/ft/sft_08.jpg" alt="08"></a>
+                                                  <a href="images/normal/ft/nft_09.jpg"><img src="images/small/ft/sft_09.jpg" alt="09"></a>
+                                                  <a href="images/normal/ft/nft_10.jpg"><img src="images/small/ft/sft_10.jpg" alt="10"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Fotos -->
+
+                                        <!-- Beg Videos -->
+                                        <div class="tab-pane" id="pre_col05_tab02">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="272" data-autoplayvideo="false" data-thumbshowplayonvideo="false" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Videos -->
+
+                                        <!-- Beg Te Platico -->
+                                        <div class="tab-pane" id="pre_col05_tab03">
+                                            <div class="ten columns marginTop">
+                                                <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                                <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                            </div>
+                                        </div>
+                                        <!-- End Te Platico -->
+
+                                    </div>
+                                </div>
+                                <!-- End Tabs -->
                             </div>
                         </div>
                     </div>
+                    <!-- End Festival del Taco -->
 
+                    <!-- Beg Feria del Libro -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse06">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco" href="#pre_col06">
                             Feria del Libro
                             </a>
                         </div>
-                        <div id="collapse06" class="accordion-body collapse">
+                        <div id="pre_col06" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                Anim pariatur cliche...
+                                <!-- Beg Tabs -->
+                                <div class="sixteen columns marginTop">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#pre_col06_tab01" data-toggle="tab">Fotos</a></li>
+                                        <li><a href="#pre_col06_tab02" data-toggle="tab">Videos</a></li>
+                                        <li><a href="#pre_col06_tab03" data-toggle="tab">Te Platico</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+
+                                        <!-- Beg Fotos -->
+                                        <div class="tab-pane active" id="pre_col06_tab01">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="270" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="images/normal/fl/nfl_01.jpg"><img src="images/small/fl/sfl_01.jpg" alt="01"></a>
+                                                  <a href="images/normal/fl/nfl_02.jpg"><img src="images/small/fl/sfl_01.jpg" alt="02"></a>
+                                                  <a href="images/normal/fl/nfl_03.jpg"><img src="images/small/fl/sfl_01.jpg" alt="03"></a>
+                                                  <a href="images/normal/fl/nfl_04.jpg"><img src="images/small/fl/sfl_01.jpg" alt="04"></a>
+                                                  <a href="images/normal/fl/nfl_05.jpg"><img src="images/small/fl/sfl_01.jpg" alt="05"></a>
+                                                  <a href="images/normal/fl/nfl_06.jpg"><img src="images/small/fl/sfl_01.jpg" alt="06"></a>
+                                                  <a href="images/normal/fl/nfl_07.jpg"><img src="images/small/fl/sfl_01.jpg" alt="07"></a>
+                                                  <a href="images/normal/fl/nfl_08.jpg"><img src="images/small/fl/sfl_01.jpg" alt="08"></a>
+                                                  <a href="images/normal/fl/nfl_09.jpg"><img src="images/small/fl/sfl_01.jpg" alt="09"></a>
+                                                  <a href="images/normal/fl/nfl_10.jpg"><img src="images/small/fl/sfl_01.jpg" alt="10"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Fotos -->
+
+                                        <!-- Beg Videos -->
+                                        <div class="tab-pane" id="pre_col06_tab02">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="272" data-autoplayvideo="false" data-thumbshowplayonvideo="false" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Videos -->
+
+                                        <!-- Beg Te Platico -->
+                                        <div class="tab-pane" id="pre_col06_tab03">
+                                            <div class="ten columns marginTop">
+                                                <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                                <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                            </div>
+                                        </div>
+                                        <!-- End Te Platico -->
+
+                                    </div>
+                                </div>
+                                <!-- End Tabs -->
                             </div>
                         </div>
                     </div>
+                    <!-- End Feria del Libro -->
 
+                    <!-- Beg InterSalecianos -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse07">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco" href="#pre_col07">
                             InterSalecianos
                             </a>
                         </div>
-                        <div id="collapse07" class="accordion-body collapse">
+                        <div id="pre_col07" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                Anim pariatur cliche...
+                                <!-- Beg Tabs -->
+                                <div class="sixteen columns marginTop">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#pre_col07_tab01" data-toggle="tab">Fotos</a></li>
+                                        <li><a href="#pre_col07_tab02" data-toggle="tab">Videos</a></li>
+                                        <li><a href="#pre_col07_tab03" data-toggle="tab">Te Platico</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+
+                                        <!-- Beg Fotos -->
+                                        <div class="tab-pane active" id="pre_col07_tab01">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="270" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="images/normal/is/nis_01.jpg"><img src="images/small/is/sis_01.jpg" alt="01"></a>
+                                                  <a href="images/normal/is/nis_02.jpg"><img src="images/small/is/sis_02.jpg" alt="02"></a>
+                                                  <a href="images/normal/is/nis_03.jpg"><img src="images/small/is/sis_03.jpg" alt="03"></a>
+                                                  <a href="images/normal/is/nis_04.jpg"><img src="images/small/is/sis_04.jpg" alt="04"></a>
+                                                  <a href="images/normal/is/nis_05.jpg"><img src="images/small/is/sis_05.jpg" alt="05"></a>
+                                                  <a href="images/normal/is/nis_06.jpg"><img src="images/small/is/sis_06.jpg" alt="06"></a>
+                                                  <a href="images/normal/is/nis_07.jpg"><img src="images/small/is/sis_07.jpg" alt="07"></a>
+                                                  <a href="images/normal/is/nis_08.jpg"><img src="images/small/is/sis_08.jpg" alt="08"></a>
+                                                  <a href="images/normal/is/nis_09.jpg"><img src="images/small/is/sis_09.jpg" alt="09"></a>
+                                                  <a href="images/normal/is/nis_10.jpg"><img src="images/small/is/sis_10.jpg" alt="10"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Fotos -->
+
+                                        <!-- Beg Videos -->
+                                        <div class="tab-pane" id="pre_col07_tab02">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="272" data-autoplayvideo="false" data-thumbshowplayonvideo="false" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Videos -->
+
+                                        <!-- Beg Te Platico -->
+                                        <div class="tab-pane" id="pre_col07_tab03">
+                                            <div class="ten columns marginTop">
+                                                <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                                <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                            </div>
+                                        </div>
+                                        <!-- End Te Platico -->
+
+                                    </div>
+                                </div>
+                                <!-- End Tabs -->
                             </div>
                         </div>
                     </div>
+                    <!-- End InterSalecianos -->
 
+                    <!-- Beg Plaza Principal -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse08">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco" href="#pre_col08">
                             Plaza Principal
                             </a>
                         </div>
-                        <div id="collapse08" class="accordion-body collapse">
+                        <div id="pre_col08" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                Anim pariatur cliche...
+                                <!-- Beg Tabs -->
+                                <div class="sixteen columns marginTop">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#pre_col08_tab01" data-toggle="tab">Fotos</a></li>
+                                        <li><a href="#pre_col08_tab02" data-toggle="tab">Videos</a></li>
+                                        <li><a href="#pre_col08_tab03" data-toggle="tab">Te Platico</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+
+                                        <!-- Beg Fotos -->
+                                        <div class="tab-pane active" id="pre_col08_tab01">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="270" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="images/normal/cc/ncc_01.jpg"><img src="images/small/cc/scc_01.jpg" alt="01"></a>
+                                                  <a href="images/normal/cc/ncc_02.jpg"><img src="images/small/cc/scc_02.jpg" alt="02"></a>
+                                                  <a href="images/normal/cc/ncc_03.jpg"><img src="images/small/cc/scc_03.jpg" alt="03"></a>
+                                                  <a href="images/normal/cc/ncc_04.jpg"><img src="images/small/cc/scc_04.jpg" alt="04"></a>
+                                                  <a href="images/normal/cc/ncc_05.jpg"><img src="images/small/cc/scc_05.jpg" alt="05"></a>
+                                                  <a href="images/normal/cc/ncc_06.jpg"><img src="images/small/cc/scc_06.jpg" alt="06"></a>
+                                                  <a href="images/normal/cc/ncc_07.jpg"><img src="images/small/cc/scc_07.jpg" alt="07"></a>
+                                                  <a href="images/normal/cc/ncc_08.jpg"><img src="images/small/cc/scc_08.jpg" alt="08"></a>
+                                                  <a href="images/normal/cc/ncc_09.jpg"><img src="images/small/cc/scc_09.jpg" alt="09"></a>
+                                                  <a href="images/normal/cc/ncc_10.jpg"><img src="images/small/cc/scc_10.jpg" alt="10"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Fotos -->
+
+                                        <!-- Beg Videos -->
+                                        <div class="tab-pane" id="pre_col08_tab02">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="272" data-autoplayvideo="false" data-thumbshowplayonvideo="false" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Videos -->
+
+                                        <!-- Beg Te Platico -->
+                                        <div class="tab-pane" id="pre_col08_tab03">
+                                            <div class="ten columns marginTop">
+                                                <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                                <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                            </div>
+                                        </div>
+                                        <!-- End Te Platico -->
+
+                                    </div>
+                                </div>
+                                <!-- End Tabs -->
                             </div>
                         </div>
                     </div>
+                    <!-- End Plaza Principal -->
 
+                    <!-- Beg Ibero -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco01" href="#collapse09">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#pre_aco" href="#pre_col09">
                             Ibero
                             </a>
                         </div>
-                        <div id="collapse09" class="accordion-body collapse">
+                        <div id="pre_col09" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                Anim pariatur cliche...
+                                <!-- Beg Tabs -->
+                                <div class="sixteen columns marginTop">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#pre_col09_tab01" data-toggle="tab">Fotos</a></li>
+                                        <li><a href="#pre_col09_tab02" data-toggle="tab">Videos</a></li>
+                                        <li><a href="#pre_col09_tab03" data-toggle="tab">Te Platico</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+
+                                        <!-- Beg Fotos -->
+                                        <div class="tab-pane active" id="pre_col09_tab01">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="270" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="images/normal/ui/nui_01.jpg"><img src="images/small/ui/sui_01.jpg" alt="01"></a>
+                                                  <a href="images/normal/ui/nui_02.jpg"><img src="images/small/ui/sui_02.jpg" alt="02"></a>
+                                                  <a href="images/normal/ui/nui_03.jpg"><img src="images/small/ui/sui_03.jpg" alt="03"></a>
+                                                  <a href="images/normal/ui/nui_04.jpg"><img src="images/small/ui/sui_04.jpg" alt="04"></a>
+                                                  <a href="images/normal/ui/nui_05.jpg"><img src="images/small/ui/sui_05.jpg" alt="05"></a>
+                                                  <a href="images/normal/ui/nui_06.jpg"><img src="images/small/ui/sui_06.jpg" alt="06"></a>
+                                                  <a href="images/normal/ui/nui_07.jpg"><img src="images/small/ui/sui_07.jpg" alt="07"></a>
+                                                  <a href="images/normal/ui/nui_08.jpg"><img src="images/small/ui/sui_08.jpg" alt="08"></a>
+                                                  <a href="images/normal/ui/nui_09.jpg"><img src="images/small/ui/sui_09.jpg" alt="09"></a>
+                                                  <a href="images/normal/ui/nui_10.jpg"><img src="images/small/ui/sui_10.jpg" alt="10"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Fotos -->
+
+                                        <!-- Beg Videos -->
+                                        <div class="tab-pane" id="pre_col09_tab02">
+                                            <div class="ten columns marginTop">
+                                                <div class="html5gallery" data-skin="horizontal" data-width="480" data-height="272" data-autoplayvideo="false" data-thumbshowplayonvideo="false" data-showsocialmedia="false" data-showtitle="false" style="display:none;">
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                  <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                                    <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                                                  </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Videos -->
+
+                                        <!-- Beg Te Platico -->
+                                        <div class="tab-pane" id="pre_col09_tab03">
+                                            <div class="ten columns marginTop">
+                                                <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                                                <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
+                                            </div>
+                                        </div>
+                                        <!-- End Te Platico -->
+
+                                    </div>
+                                </div>
+                                <!-- End Tabs -->
                             </div>
                         </div>
                     </div>
+                    <!-- End Ibero -->
 
                 </div>
             </div>            
@@ -450,40 +1031,50 @@
                 </ul>
                 <div class="tab-content">
 
+                    <!-- Beg Origenes -->
                     <div class="tab-pane active" id="bel_tab01">
                         <div class="ten columns marginTop">
-                            <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                            <p class="introtext"><span class="dropcap">O</span>rigenes lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
                             <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
                         </div>
                     </div>
+                    <!-- End Origenes -->
 
+                    <!-- Beg Figuras Basicas -->
                     <div class="tab-pane" id="bel_tab02">
                         <div class="ten columns marginTop">
-                            <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                            <p class="introtext"><span class="dropcap">F</span>iguras basicas metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
                             <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
                         </div>
                     </div>
+                    <!-- End Figuras Basicas -->
 
+                    <!-- Beg Asociaciones -->
                     <div class="tab-pane" id="bel_tab03">
                         <div class="ten columns marginTop">
-                            <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                            <p class="introtext"><span class="dropcap">A</span>sociaciones lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
                             <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
                         </div>
                     </div>
+                    <!-- End Asociaciones -->
 
+                    <!-- Beg Cngresos -->
                     <div class="tab-pane" id="bel_tab04">
                         <div class="ten columns marginTop">
-                            <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                            <p class="introtext"><span class="dropcap">C</span>ongresos lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
                             <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
                         </div>
                     </div>
+                    <!-- End Cngresos -->
 
+                    <!-- Beg Competencias -->
                     <div class="tab-pane" id="bel_tab05">
                         <div class="ten columns marginTop">
-                            <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
+                            <p class="introtext"><span class="dropcap">C</span>ompetencias lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
                             <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
                         </div>
                     </div>
+                    <!-- End Competencias -->
 
                 </div>
             </div>
@@ -520,6 +1111,7 @@
                 </ul>
                 <div class="tab-content">
 
+                    <!-- Beg Staff -->
                     <div class="tab-pane active" id="ace_tab01">
                         <!-- BEG -->
                         <div class="two column">
@@ -746,7 +1338,9 @@
                         </div>
                         <!-- END -->
                     </div>
+                    <!-- End Staff -->
 
+                    <!-- Beg Contactanos -->
                     <div class="tab-pane" id="ace_tab02">
                         <!-- Beg -->
                         <div class="three columns marginTop contactDetails">
@@ -792,13 +1386,16 @@
                         </div>
                         <!-- End -->
                     </div>
+                    <!-- End Contactanos -->
 
+                    <!-- Beg Te Platico -->
                     <div class="tab-pane" id="ace_tab03">
                         <div class="ten columns marginTop">
                             <p class="introtext"><span class="dropcap">V</span>ivamus lacinia metus at tellus commodo eu faucibus ante ultricies. Nullam sed diam eget justo vehicula auctor nec non turpis. Maecenas lacus nulla, scelerisque vel porta nec, rhoncus vitae diam. <span class="highlight">Suspendisse feugiat metus</span> sit amet justo commodo placerat elementum dui venenatis. Aenean euismod laoreet magna, vel egestas sem convallis quis. </p>  
                             <p>Nullam quam augue, tincidunt ut dapibus nec, tempor sit amet purus. Nam quis felis eu mauris dictum auctor. Phasellus sit amet magna tortor, laoreet pharetra sem. Donec magna metus, viverra vitae aliquam et, convallis in tellus. <span class="highlight">Duis in massa massa</span> vel ultricies nisi. Morbi at tortor volutpat purus mattis blandit vel sit amet sapien. Sed eu nulla mollis felis semper faucibus. Fusce sed ipsum id leo posuere tempor. Nullam eget purus orci, ac posuere libero. </p>
                         </div>
                     </div>
+                    <!-- End Te Platico -->
 
                 </div>
             </div>
@@ -827,15 +1424,16 @@
             </div>
 
             <div class="sixteen columns marginTop">
-                <div class="accordion" id="blo_aco01">
+                <div class="accordion" id="blo_aco">
 
+                    <!-- Beg Agosto -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco01" href="#collapse01">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco" href="#blo_col01">
                             Agosto
                             </a>
                         </div>
-                        <div id="collapse01" class="accordion-body collapse in">
+                        <div id="blo_col01" class="accordion-body collapse in">
                             <div class="accordion-inner">
 
                                 <div class="ten columns marginTop">
@@ -846,14 +1444,16 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Agosto -->
 
+                    <!-- Beg Septiembre -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco01" href="#collapse02">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco" href="#blo_col02">
                             Septiembre
                             </a>
                         </div>
-                        <div id="collapse02" class="accordion-body collapse">
+                        <div id="blo_col02" class="accordion-body collapse">
                             <div class="accordion-inner">
 
                                 <div class="ten columns marginTop">
@@ -864,14 +1464,16 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Septiembre -->
 
+                    <!-- Beg Octubre -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco01" href="#collapse03">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco" href="#blo_col03">
                             Octubre
                             </a>
                         </div>
-                        <div id="collapse03" class="accordion-body collapse">
+                        <div id="blo_col03" class="accordion-body collapse">
                             <div class="accordion-inner">
 
                                 <div class="ten columns marginTop">
@@ -882,14 +1484,16 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Octubre -->
 
+                    <!-- Beg Noviembre -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco01" href="#collapse04">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco" href="#blo_col04">
                             Noviembre
                             </a>
                         </div>
-                        <div id="collapse04" class="accordion-body collapse">
+                        <div id="blo_col04" class="accordion-body collapse">
                             <div class="accordion-inner">
 
                                 <div class="ten columns marginTop">
@@ -900,14 +1504,16 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Noviembre -->
 
+                    <!-- Beg Diciembre -->
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco01" href="#collapse05">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#blo_aco" href="#blo_col05">
                             Diciembre
                             </a>
                         </div>
-                        <div id="collapse05" class="accordion-body collapse">
+                        <div id="blo_col05" class="accordion-body collapse">
                             <div class="accordion-inner">
 
                                 <div class="ten columns marginTop">
@@ -918,6 +1524,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Diciembre -->
 
                 </div>
             </div>
@@ -937,25 +1544,11 @@
     <div id="footer">
     
         <div class="container">
-            <!-- Our Clients -->
-            <div class="sixteen columns">
-                <h3 class="sectionTitle">Our Clients</h3>
-            </div>
-            
-            <div class="sixteen columns">
-                 <section class="slider">
-                    <div id="carouselSlider" class="flexslider carousel">
-                       <ul class="slides">
-                          <li><img src="images/logos/Marlin.png" alt="Marlin" /></li>
-                       </ul>
-                    </div>
-                 </section>
-            </div>
-            <!-- Our Clients End -->
             
             <div class="sixteen columns">	
-                <p class="copyright">&copy; Salvador Segura 2013. <br/>Todos los derechos reservados. Theme by <a href="http://html5css3templates.com/" title="Premium Responsive Templates">HTML5CSS3Templates</a>.</p>
+                <p class="copyright">&copy; Salvador Segura 2013. <br/>Todos los derechos reservados.</p>
             </div>
+
         </div>
     </div>
 <!-- End footer -->
